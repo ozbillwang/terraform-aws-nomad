@@ -1,6 +1,6 @@
 machine:
   environment:
-    PATH: $PATH:$HOME/terraform:$HOME/packer:$HOME/glide/linux-amd64
+    PATH: $PATH:$HOME/terraform:$HOME/packer:$HOME/glide/linux-amd64:/usr/local/bin
 
 dependencies:
   override:
